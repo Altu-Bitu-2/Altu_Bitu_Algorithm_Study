@@ -97,6 +97,8 @@ int main(void) {
 		if (flag == true) ans++;
 		else break;
 
+		pop.clear(); //이거 한줄 없어서 틀렸습니다 떴었음.
+
 		//STEP3. 중력 적용시켜서 빈칸없게 아래로 뿌요 내리기
 		for (int i = 0; i < 6; i++) {
 			for (int j = 10; j >= 0; j--) {
